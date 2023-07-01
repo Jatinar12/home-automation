@@ -132,6 +132,22 @@ class WebElement {
         });
     }
 
+    shouldBeVisible(element) {
+        cy.get(element).should('be.visible').then(function() {
+            cy.log("Element is visible");
+        }), function (err){
+            cy.log("-->Error: Element couldn't be visible");
+        }
+    }
+
+    trigger(element) {
+        cy.get(element).trigger("mouseover").then(function() {
+            cy.log("Element is trigger");
+        }), function (err) {
+            cy.log("Element is not triggered")
+        }
+    }
+
 
 
 }

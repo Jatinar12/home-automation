@@ -98,7 +98,7 @@ class GenericActions {
         var randomnumber = Math.floor(Math.random() * 90000) + 100000;
         for (var i = 0; i < 15; i++)
             string = chars[Math.floor(Math.random() * chars.length)];
-        email = string + +randomnumber + '@gmail.com'
+        email = "danish"+string + +randomnumber + '@karvyinfotech.com'
         return email;
     }
 

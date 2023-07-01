@@ -20,10 +20,10 @@ module.exports = defineConfig({
       return config;
     },
     specPattern: "cypress/e2e/features/*.feature",
-    baseUrl: "https://admin-demo.nopcommerce.com",
+    baseUrl: "https://www.staging.yourhomekart.in/buy/lodha-codename-premier-property-dombivali-mumbai-4620",
     chromeWebSecurity: false,
     chromeWebSecurity: false,
     viewportHeight: 900,
-    viewportWidth: 1440,
+    viewportWidth: 1540,
   },
 });
