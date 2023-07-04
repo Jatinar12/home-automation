@@ -148,6 +148,14 @@ class WebElement {
         }
     }
 
+    scrollIntoView(element) {
+        cy.get(element).scrollIntoView().then(function() {
+            cy.log("Element is scrolled");
+        }), function (err) {
+            cy.log("Element is not scrolled")
+        }
+    }
+
 
 
 }
