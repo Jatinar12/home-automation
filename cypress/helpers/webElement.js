@@ -140,8 +140,8 @@ class WebElement {
         }
     }
 
-    trigger(element) {
-        cy.get(element).trigger("mouseover").then(function() {
+    trigger(element,action) {
+        cy.get(element).trigger(action).then(function() {
             cy.log("Element is trigger");
         }), function (err) {
             cy.log("Element is not triggered")
