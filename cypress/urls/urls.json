@@ -1,4 +1,11 @@
 {
   "buyPDP" : "/buy/lodha-bellagio-property-powai-mumbai-5772",
-  "property details page" : "https://www.homebazaar.com/builders/lodha-group"
+  "property details page" : "https://www.homebazaar.com/builders/lodha-group",
+  "builder" : "builders/lodha-group",
+  "homeloanemicalculator" : "/home-loan-emi-calculator",
+  "rentaproperty" : "/rent-a-property",
+  "home" : "/",
+  "searchpage":"https://www.homebazaar.com/buy/search",
+  "homepage" : "https://www.homebazaar.com/",
+  "cityName" : "homebazaar"
 } 

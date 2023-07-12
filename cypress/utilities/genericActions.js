@@ -18,6 +18,10 @@ class GenericActions {
         };
     }
 
+    getUrl(){
+        cy.url().then(text => cy.log(text))
+    }
+
    refresh() {
         cy.reload().then(function () {
             cy.log("--->Success: The page got refreshed");

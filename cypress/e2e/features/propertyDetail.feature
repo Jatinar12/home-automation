@@ -90,8 +90,8 @@ Scenario: Buy Property Detail Page - functionality of Images button which naviga
     And I select "11:00 am" from "time" field on the modal
     And I check the "accept the term checkbox" on the form
     And I check the "homeloans checkbox" on the form
-#     And I click on the "arrange visit button" on the "image modal"
-#     Then I should see the "OTP modal" on the "page"
+    And I click on the "arrange visit button" on the "image modal"
+    Then I should see the "OTP modal" on the "page"
 
 @regression @buyPDPPage-08 @automated
 Scenario: Buy Property Detail Page - checking the functionality of "Read More" button on the introduction section
@@ -168,7 +168,7 @@ Scenario: Buy Property Detail Page - checking the functionality of Get Cost Shee
     And I check the "accept the term" on the form
     And I check the "homeloans checkbox" on the form
     And I click on the "cost sheet button" on the "popup form"
-#     Then I should see the "OTP modal" on the "page"
+    Then I should see the "OTP modal" on the "page"
 
 @regression @buyPDPPage-13 @automated
 Scenario: Buy Property Detail Page - checking the functionlity of Get Cost Sheet button (Arrange Site Visit Form)
