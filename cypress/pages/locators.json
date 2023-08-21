@@ -229,6 +229,22 @@
    "sideBar" : ".dXa-dwJ .sc-hLBbgP",
    "menuItem list" : "section [data-cy='sidebar-list-container'] .sc-jSUZER",
    "menuItemList" : "section [data-cy='sidebar-list-container'] .sc-jSUZER:contains('element')",
-   "social media links" : "div a [data-cy='sidepanel-social-link']"
-
+   "social media links" : "div a [data-cy='sidepanel-social-link']",
+   "post property" : "div a:eq(1)",
+   "headers" : "div [class='MuiGrid-root MuiGrid-item css-1wxaqej']:contains('element')",
+   "dropdownList" : "div .navbarDropdown_main_menu__LXXK1",
+   "button" : "div .navbarDropdown_main_menu__LXXK1 ul a:contains('element')",
+   "heartIcon" : "[data-cy='header-profile-btn'] img",
+   "shortlisted any property" : ".MuiPopover-root .MuiPaper-root",
+   "viewAll button" : ".MuiTypography-body1 a div ",
+   "Buy" : "[data-cy='header-dropdown-container']:eq(1)",
+   "first option" : "[data-cy='header-dropdown-item-buy']",
+   "mumbai" : "div [data-cy='header-dropdown-container']:last()",
+   "city type" : "div .headerDropdown_option__4whZg",
+   "Rent" : "div [data-cy='header-dropdown-item-rent']",
+   "searchInputField" : "div [title='search-icon']",
+   "city list" : "div [data-cy='header-search-box-list-item']",
+   "rent image text" : "div .inev-rating",
+   "about property" : "div .stickyMenu_blueIndicator__9o6DS:eq(1)",
+   "floor plans & room sizing" : "div [data-cy='submenu-item']:eq(2)"
 }

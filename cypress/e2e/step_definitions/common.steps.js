@@ -72,3 +72,9 @@ Then('I should see the {string} on the {string}', (element,text) => {
     When('I fill the {string} on the {string} input field', (text,element) => {
         webTextBox.typeText(commonLocators[element],text)
     })
+
+    
+When('I select {string} on the {string}', (cityName,element) => {
+    let locator=`${commonLocators[element]}:contains("${cityName}"):last()`;
+    webButton.focusClick(locator)
+})
